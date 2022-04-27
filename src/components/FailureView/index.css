@@ -1,0 +1,51 @@
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .failure-container {
+    justify-content: flex-start;
+  }
+}
+
+.book-item-failure-image {
+  height: 200px;
+  width: 400px;
+}
+
+@media screen and (max-width: 767px) {
+  .book-item-failure-image {
+    width: 250px;
+    height: 200px;
+  }
+}
+
+.book-item-failure-message {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+  .book-item-failure-message {
+    font-size: 19px;
+    width: 90%;
+    text-align: center;
+  }
+}
+
+.try-again-button {
+  color: #ffffff;
+  background-color: #0284c7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

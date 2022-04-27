@@ -1,0 +1,25 @@
+.favorite-books-bg-container {
+  padding: 10px;
+  background-color: rgb(237, 237, 242);
+}
+.no-favorite-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-button {
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(12, 53, 238, 0.781);
+  color: white;
+  font-family: roboto;
+  height: 30px;
+  width: 120px;
+}
+.favorite-books-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px;
+}
